@@ -8,3 +8,17 @@ $headings-font-family: 'Roboto Flex', sans-serif;
     height: 2em;
 }
 
+header {
+    background-image: linear-gradient(to bottom, #191970, #7DF9FF);
+    color: white;
+    .nav-link {
+        color: white;
+    }
+    .navbar-nav {
+        column-gap: 7em;
+    }
+    .btn {
+        border-radius: 2em;
+        width: 7em;
+    }
+}

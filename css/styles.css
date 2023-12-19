@@ -11980,4 +11980,20 @@ textarea.form-control-lg {
 }
 .icon {
   height: 2em;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #191970, #7DF9FF);
+  color: white;
+}
+header .nav-link {
+  color: white;
+}
+header .navbar-nav {
+  -moz-column-gap: 7em;
+       column-gap: 7em;
+}
+header .btn {
+  border-radius: 2em;
+  width: 7em;
 }/*# sourceMappingURL=styles.css.map */
