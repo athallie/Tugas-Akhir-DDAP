@@ -11977,4 +11977,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.icon {
+  height: 2em;
 }/*# sourceMappingURL=styles.css.map */
