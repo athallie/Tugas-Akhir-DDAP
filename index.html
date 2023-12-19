@@ -11,12 +11,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Awarding DDAP 2023</title>
-  <link rel="stylesheet" href="css/custom-styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Roboto Flex Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-info bg-opacity-75">
+  <!-- Header -->
+  <header class="bg-info bg-opacity-75 mb-4">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <div class="collapse navbar-collapse justify-content-center">
           <ul class="navbar-nav align-items-center column-gap-5">
@@ -47,12 +54,14 @@
         </div>
       </div>
     </nav>
-    <div id="jumbotron">
-      <h1 id="event-title">
+
+    <!-- Jumbotron -->
+    <div class="container-fluid text-center" id="jumbotron">
+      <h1 class="display-1 mb-lg-4" id="event-title">
         Awarding DDAP <br> 
         2023
       </h1>
-      <h4 id="event-date">
+      <h4 class="mb-xl-4" id="event-date">
         Oktober 10 -20, Malang
       </h4>
       <h2 id="event-countdown">
@@ -61,69 +70,149 @@
     </div>
   </header>
 
+  <!-- Contents -->
   <main>
-    <section id="tentang-page">
-      <p class="kicker">01. Tentang Acara</p>
-      <h2 class="headline">Tentang Acara</h2>
-      <p id="tentang-paragraph">
-        Penjelasan ttg acara. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non suscipit urna. Aenean
-        porttitor massa quis mi pharetra, sit amet tincidunt ligula tempor. Etiam libero dui, euismod eu ultrices vitae,
-        tincidunt ut lorem. Curabitur suscipit est eu libero pellentesque, sit amet pulvinar odio molestie. Pellentesque
-        tincidunt velit vehicula, iaculis leo non, facilisis nulla.
-      </p>
-      <img class="art-object" />
-    </section>
-  
-    <section id="hadiah-page">
-      <p class="kicker">02. Hadiah</p>
-      <h2 class="headline">Hadiah</h2>
-      <div id="hadiah-list">
-  
+    <!-- Tentang -->
+    <section class="container" id="tentang-page">
+      <div class="row align-items-center">
+        <div class="col">
+          <p class="kicker">01. Tentang Acara</p>
+          <h2 class="headline">Tentang Acara</h2>
+          <p id="tentang-paragraph">
+            Penjelasan ttg acara. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non suscipit urna. Aenean
+            porttitor massa quis mi pharetra, sit amet tincidunt ligula tempor. Etiam libero dui, euismod eu ultrices vitae,
+            tincidunt ut lorem. Curabitur suscipit est eu libero pellentesque, sit amet pulvinar odio molestie. Pellentesque
+            tincidunt velit vehicula, iaculis leo non, facilisis nulla.
+          </p>
+        </div>
+        <img src="images/Art 1.svg" class="col art-object" />
       </div>
-      <img class="art-object" />
     </section>
   
-    <section id="timeline-page">
-      <p class="kicker">03. Timeline</p>
-      <h2 class="headline">Timeline</h2>
+    <!-- Hadiah -->
+    <section class="container" id="hadiah-page">
+      <div class="row">
+        <img src="images/Art 2.svg" class="col art-object" />
+        <div class="col text-end align-items-end">
+          <p class="kicker">02. Hadiah</p>
+          <h2 class="headline">Hadiah</h2>
+          <div id="hadiah-list"></div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Timeline -->
+    <section class="container align-items-center" id="timeline-page">
+      <div class="text text-center">
+        <p class="kicker">03. Timeline</p>
+        <h2 class="headline">Timeline</h2>
+      </div>
       <div id="timeline-object">
-  
+        
       </div>
     </section>
   
-    <section id="sponsor-page">
-      <p class="kicker">04. Sponsor</p>
-      <h2 class="headline">Sponsor</h2>
-      <div id="sponsor-list">
-  
+    <!-- Sponsor -->
+    <section class="container" id="sponsor-page">
+      <div class="text text-center">
+        <p class="kicker">04. Sponsor</p>
+        <h2 class="headline">Sponsor</h2>
       </div>
+      <div id="sponsor-list"></div>
     </section>
   
+    <!-- Karya -->
     <section id="karya-page">
-      <p class="kicker">05. Karya</p>
-      <h2 class="headline">Karya</h2>
-      <div id="karya-carousel">
-  
+      <div class="text text-center">
+        <p class="kicker">05. Karya</p>
+        <h2 class="headline">Karya</h2>
       </div>
+      <div id="karya-carousel"></div>
+      
     </section>
   
-    <section id="faq-page">
-      <h2 class="headline">FAQ</h2>
-      <img class="art-object" />
-      <div id="faq-accordion">
-  
+    <!-- FAQ -->
+    <section class="container" id="faq-page">
+      <div class="row align-items-center">
+        <div class="col text text-center">
+          <h2 class="headline">FAQ</h2>
+          <img src="images/Art 3.svg" class="art-object" />
+        </div>
+
+        <div class="col">
+          <div class="accordion" id="faq-accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Bagaimana cara mendaftar?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                <div class="accordion-body">
+                  Silahkan baca file panduan pendaftaran.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Kapan pendaftaran dibuka?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                <div class="accordion-body">
+                  Silahkan baca file panduan pendaftaran.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Apakah saya boleh mendaftar?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                <div class="accordion-body">
+                  Silahkan baca file panduan pendaftaran.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Di mana saya bisa mendaftar?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faq-accordion">
+                <div class="accordion-body">
+                  Silahkan baca file panduan pendaftaran.
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
       </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
+    <!-- Contacts -->
     <div id="contacts">
 
     </div>
+
+    <!-- Copyright -->
     <p id="copyright">Copyright © 2023 Kelompok X </p>
   </footer>
 
   <script src="script.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
