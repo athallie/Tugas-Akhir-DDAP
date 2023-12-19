@@ -1,6 +1,8 @@
 # Awarding DDAP 2023
 Awarding DDAP 2023 adalah situs web yang menampilkan informasi terkait acara kompetisi situs web untuk para mahasiswa yang mengambil mata kuliah Dasar Desain Antarmuka Pengguna di semester ganjil tahun 2023.
 
+#### Live Website: https://eavelie.github.io/Tugas-Akhir-DDAP/
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -23,11 +25,6 @@ Awarding DDAP 2023 adalah situs web yang menampilkan informasi terkait acara kom
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [SCSS](https://sass-lang.com/)
 - [Bootstrap](https://getbootstrap.com/)
-
-### Live Website
-```
-https://eavelie.github.io/Tugas-Akhir-DDAP/
-```
 
 ## Installation
 
