@@ -12012,10 +12012,29 @@ header #jumbotron h3, header #jumbotron .h3 {
   border-width: 1px;
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
+#sponsor-page .container-fluid, #sponsor-page .container-sm, #sponsor-page .container-md, #sponsor-page .container-lg, #sponsor-page .container-xl, #sponsor-page .container-xxl {
+  padding-top: 1em;
+}
 
 #hadiah-list .card {
   width: 5em;
   background-color: white;
+}
+
+#karya-page .carousel {
+  display: flex;
+  width: 60em;
+  height: 30em;
+}
+#karya-page .carousel .carousel-indicators {
+  bottom: -4em;
+}
+#karya-page .carousel .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+#karya-page .carousel-item img {
+  width: 70%;
 }
 
 .page-set {
