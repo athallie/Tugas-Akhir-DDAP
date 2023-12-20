@@ -14,11 +14,29 @@ header {
     .nav-link {
         color: white;
     }
+
+    .navbar-brand {
+        margin: 0;
+    }
     .navbar-nav {
-        column-gap: 7em;
+        column-gap: 5em;
     }
     .btn {
         border-radius: 2em;
         width: 7em;
+    }
+}
+
+#sponsor-page {
+    .row {
+        column-gap: 4em;
+        margin-bottom: 3em;
+    }
+    .card {
+        width: 12em;
+        border-radius: 2em;
+        border-color: black;
+        border-width: 1px;
+        box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
     }
 }
