@@ -598,68 +598,35 @@ progress {
 }
 
 .display-1 {
-  font-size: calc(1.625rem + 4.5vw);
+  font-size: calc(1.675rem + 5.1vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
 }
 
 .display-2 {
-  font-size: calc(1.575rem + 3.9vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-2 {
-    font-size: 4.5rem;
-  }
-}
-
-.display-3 {
-  font-size: calc(1.525rem + 3.3vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-3 {
-    font-size: 4rem;
-  }
-}
-
-.display-4 {
   font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
-  .display-4 {
+  .display-2 {
     font-size: 3.5rem;
   }
 }
 
-.display-5 {
-  font-size: calc(1.425rem + 2.1vw);
+.display-3 {
+  font-size: calc(1.275rem + 0.3vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
-  .display-5 {
-    font-size: 3rem;
-  }
-}
-
-.display-6 {
-  font-size: calc(1.375rem + 1.5vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-6 {
-    font-size: 2.5rem;
+  .display-3 {
+    font-size: 1.5rem;
   }
 }
 
@@ -11978,6 +11945,25 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.kicker {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.headline {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75em;
+}
+
+#tentang-page #tentang-paragraph {
+  font-size: 1.1rem;
+}
+#tentang-page .row {
+  -moz-column-gap: 1em;
+       column-gap: 1em;
+}
+
 .icon {
   height: 2em;
 }
@@ -11986,37 +11972,32 @@ header {
   background-image: linear-gradient(to bottom, #191970, #7DF9FF);
   color: white;
   padding-top: 2em;
-  padding-bottom: 12.25em;
+  padding-bottom: 5em;
 }
 header nav {
-  margin-bottom: 6.5em;
+  margin-bottom: 4em;
 }
-header .nav-link {
+header nav .nav-link {
   color: white;
   font-size: 0.75rem;
 }
-header .navbar-brand {
+header nav .navbar-brand {
   margin: 0;
 }
-header .navbar-nav {
+header nav .navbar-nav {
   -moz-column-gap: 5em;
        column-gap: 5em;
 }
-header .btn {
+header nav .btn {
   border-radius: 2em;
   width: 7em;
   font-size: 0.75rem;
 }
 header #jumbotron h1, header #jumbotron .h1 {
-  font-size: 5.5rem;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
 }
-header #jumbotron h4, header #jumbotron .h4 {
-  font-size: 1.5rem;
-  margin-bottom: 5em;
-}
-header #jumbotron h2, header #jumbotron .h2 {
-  font-size: 3.5rem;
+header #jumbotron h3, header #jumbotron .h3 {
+  margin-bottom: 3.5em;
 }
 
 #sponsor-page .row {
@@ -12035,4 +12016,18 @@ header #jumbotron h2, header #jumbotron .h2 {
 #hadiah-list .card {
   width: 5em;
   background-color: white;
+}
+
+.page-set {
+  padding-inline: 1em;
+  padding-block: 3em;
+}
+
+footer {
+  margin-top: -4em;
+  padding-top: 3em;
+  padding-bottom: 1.5em;
+}
+footer #contacts {
+  margin-bottom: 2em;
 }/*# sourceMappingURL=styles.css.map */
