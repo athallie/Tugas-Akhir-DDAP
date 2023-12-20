@@ -113,6 +113,7 @@ header {
         display: flex;
         width: 60em;
         height: 30em;
+        box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
         .carousel-indicators {
             bottom: -4em;
         }
@@ -123,7 +124,7 @@ header {
     }
     .carousel-item {
         img {
-            width: 70%;
+            width: 50%;
         }
     }
 }
@@ -134,7 +135,6 @@ header {
 }
 
 footer {
-    margin-top: -4em;
     #contacts {
         margin-bottom: 2em;
     }
