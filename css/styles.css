@@ -11985,9 +11985,15 @@ textarea.form-control-lg {
 header {
   background-image: linear-gradient(to bottom, #191970, #7DF9FF);
   color: white;
+  padding-top: 2em;
+  padding-bottom: 12.25em;
+}
+header nav {
+  margin-bottom: 6.5em;
 }
 header .nav-link {
   color: white;
+  font-size: 0.75rem;
 }
 header .navbar-brand {
   margin: 0;
@@ -11999,6 +12005,18 @@ header .navbar-nav {
 header .btn {
   border-radius: 2em;
   width: 7em;
+  font-size: 0.75rem;
+}
+header #jumbotron h1, header #jumbotron .h1 {
+  font-size: 5.5rem;
+  margin-bottom: 0.5em;
+}
+header #jumbotron h4, header #jumbotron .h4 {
+  font-size: 1.5rem;
+  margin-bottom: 5em;
+}
+header #jumbotron h2, header #jumbotron .h2 {
+  font-size: 3.5rem;
 }
 
 #sponsor-page .row {
@@ -12012,4 +12030,9 @@ header .btn {
   border-color: black;
   border-width: 1px;
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+#hadiah-list .card {
+  width: 5em;
+  background-color: white;
 }/*# sourceMappingURL=styles.css.map */
