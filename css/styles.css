@@ -12120,4 +12120,13 @@ footer #contacts {
 }
 #timeline-page .container img {
   width: 90%;
+}
+
+#faq-page img {
+  animation: investigate 2s infinite alternate ease-in-out;
+}
+@keyframes investigate {
+  to {
+    transform: scale(1.1);
+  }
 }/*# sourceMappingURL=styles.css.map */
