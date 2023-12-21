@@ -12062,4 +12062,22 @@ footer {
 }
 footer #contacts {
   margin-bottom: 2em;
+}
+
+#hadiah-page #hadiah-list {
+  padding-left: 10em;
+}
+#hadiah-page #hadiah-list .row {
+  padding: 0;
+  height: 10em;
+}
+#hadiah-page #hadiah-list .col {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  justify-content: center;
+}
+#hadiah-page #hadiah-list img {
+  width: 50%;
 }/*# sourceMappingURL=styles.css.map */
