@@ -11945,6 +11945,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-image: radial-gradient(circle, #191970, #371873, #4d1774, #601675, #721575, #801574, #8e1773, #9b1a72, #a91f70, #b5266d, #c12e69, #cc3766);
+  color: #f2f2f2;
+}
+
 .kicker {
   font-size: 1rem;
   font-weight: 300;
@@ -11952,7 +11957,7 @@ textarea.form-control-lg {
 
 .headline {
   font-size: 2.75rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 0.75em;
 }
 
@@ -11965,12 +11970,10 @@ textarea.form-control-lg {
 }
 
 .icon {
-  height: 2em;
+  height: 2.5em;
 }
 
 header {
-  background-image: linear-gradient(to bottom, #191970, #7DF9FF);
-  color: white;
   padding-top: 2em;
   padding-bottom: 5em;
 }
@@ -11978,7 +11981,7 @@ header nav {
   margin-bottom: 4em;
 }
 header nav .nav-link {
-  color: white;
+  color: #f2f2f2;
   font-size: 0.75rem;
 }
 header nav .navbar-brand {
@@ -11992,6 +11995,8 @@ header nav .btn {
   border-radius: 2em;
   width: 7em;
   font-size: 0.75rem;
+  color: white;
+  border-color: white;
 }
 header #jumbotron h1, header #jumbotron .h1 {
   margin-bottom: 0.25em;

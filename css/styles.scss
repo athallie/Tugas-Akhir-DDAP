@@ -13,8 +13,13 @@ $font-nav: .75rem;
 $font-sub: 1rem;
 $font-p: 1.1rem;
 $font-hl: 2.75rem;
-$font-hl-w: 700;
+$font-hl-w: 500;
 $font-sub-w: 300;
+
+body {
+    background-image: radial-gradient(circle, #191970, #371873, #4d1774, #601675, #721575, #801574, #8e1773, #9b1a72, #a91f70, #b5266d, #c12e69, #cc3766);
+    color: #f2f2f2; 
+}
 
 .kicker {
     font-size: $font-sub;
@@ -38,13 +43,10 @@ $font-sub-w: 300;
 }
 
 .icon {
-    height: 2em;
+    height: 2.5em;
 }
 
 header {
-    background-image: linear-gradient(to bottom, #191970, #7DF9FF);
-    color: white;
-
     padding-top: 2em;
     padding-bottom: 5em;
 
@@ -52,7 +54,7 @@ header {
         margin-bottom: 4em;
 
         .nav-link {
-            color: white;
+            color: #f2f2f2;
             font-size: $font-nav;
         }
     
@@ -68,6 +70,8 @@ header {
             border-radius: 2em;
             width: 7em;
             font-size: $font-nav;
+            color: white;
+            border-color: white;
         }
     }
 
