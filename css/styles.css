@@ -12045,6 +12045,12 @@ header #jumbotron h3, header #jumbotron .h3 {
   width: 5em;
   background-color: white;
 }
+#hadiah-list img {
+  transition: transform 0.2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+#hadiah-list img:hover {
+  transform: scale(1.1);
+}
 
 #karya-page .carousel {
   display: flex;

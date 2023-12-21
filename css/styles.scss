@@ -8,6 +8,8 @@ $display-font-sizes: (
 );
 $accordion-bg: white;
 
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 $font-nav: .75rem;
@@ -133,6 +135,12 @@ header {
     .card {
         width: 5em;
         background-color: white;
+    }
+    img {
+        transition: transform 0.2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    }
+    img:hover {
+        transform: scale(1.1);
     }
 }
 
