@@ -4488,7 +4488,7 @@ textarea.form-control-lg {
 
 .accordion {
   --bs-accordion-color: var(--bs-body-color);
-  --bs-accordion-bg: var(--bs-body-bg);
+  --bs-accordion-bg: white;
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
   --bs-accordion-border-color: var(--bs-border-color);
   --bs-accordion-border-width: var(--bs-border-width);
@@ -12006,19 +12006,26 @@ header #jumbotron h3, header #jumbotron .h3 {
 }
 
 #sponsor-page .row {
-  -moz-column-gap: 4em;
-       column-gap: 4em;
+  -moz-column-gap: 1em;
+       column-gap: 1em;
   margin-bottom: 3em;
 }
 #sponsor-page .card {
-  width: 12em;
+  width: 10em;
+  height: 10em;
   border-radius: 2em;
   border-color: black;
   border-width: 1px;
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+  padding: 1em;
 }
 #sponsor-page .container-fluid, #sponsor-page .container-sm, #sponsor-page .container-md, #sponsor-page .container-lg, #sponsor-page .container-xl, #sponsor-page .container-xxl {
   padding-top: 1em;
+}
+#sponsor-page img {
+  width: 80%;
+  border-radius: 1em;
+  margin: auto;
 }
 
 #hadiah-list .card {
