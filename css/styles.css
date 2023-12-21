@@ -12075,11 +12075,14 @@ footer #contacts {
   display: flex;
   width: 100%;
   height: 100%;
-  padding: 2em;
-  justify-content: center;
+  padding-inline: 0;
 }
 #hadiah-page #hadiah-list img {
-  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  border-radius: 2em;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 #timeline-page .container {
