@@ -41,6 +41,21 @@ body {
     .row {
         column-gap: 1em;
     }
+
+    img {
+        transform: translateY(-2%);
+        animation: floater 5s infinite;
+        transition: ease 0.5s;
+
+        @keyframes floater {
+            0% {
+                transform: translateY(-2%);
+            }
+            50% {
+                transform: translateY(2%);
+            }
+          }
+    }
 }
 
 .icon {

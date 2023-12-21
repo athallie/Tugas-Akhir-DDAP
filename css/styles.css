@@ -11968,6 +11968,19 @@ body {
   -moz-column-gap: 1em;
        column-gap: 1em;
 }
+#tentang-page img {
+  transform: translateY(-2%);
+  animation: floater 5s infinite;
+  transition: ease 0.5s;
+}
+@keyframes floater {
+  0% {
+    transform: translateY(-2%);
+  }
+  50% {
+    transform: translateY(2%);
+  }
+}
 
 .icon {
   height: 2.5em;
