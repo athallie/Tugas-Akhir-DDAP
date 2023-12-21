@@ -176,3 +176,14 @@ footer {
         }
     }
 }
+
+#timeline-page {
+    .container {
+        display: flex;
+        padding-block: 2em;
+        justify-content: center;
+        img {
+            width: 90%;
+        }
+    }
+}

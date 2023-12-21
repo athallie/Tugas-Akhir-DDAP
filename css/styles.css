@@ -12080,4 +12080,13 @@ footer #contacts {
 }
 #hadiah-page #hadiah-list img {
   width: 50%;
+}
+
+#timeline-page .container {
+  display: flex;
+  padding-block: 2em;
+  justify-content: center;
+}
+#timeline-page .container img {
+  width: 90%;
 }/*# sourceMappingURL=styles.css.map */
