@@ -8,9 +8,13 @@ $display-font-sizes: (
 );
 $accordion-bg: white;
 
-
-
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+@mixin button-outline-variant(
+    
+) {
+
+}
 
 $font-nav: .75rem;
 $font-sub: 1rem;
