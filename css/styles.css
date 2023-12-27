@@ -12120,13 +12120,21 @@ header #jumbotron h3, header #jumbotron .h3 {
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
-#timeline-page .container {
-  display: flex;
-  padding-block: 2em;
-  justify-content: center;
+#timeline-page {
+  height: 100vh;
+  background-image: url(../images/background/timeline/bg-timeline.png);
+  background-size: contain;
+  padding-inline: 0;
 }
-#timeline-page .container img {
-  width: 90%;
+#timeline-page #timeline {
+  padding-inline: 0;
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+#timeline-page #timeline img {
+  width: 100%;
 }
 
 #faq-page {

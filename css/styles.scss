@@ -219,12 +219,18 @@ header {
 }
 
 #timeline-page {
-    .container {
+    height: 100vh;
+    background-image: url(../images/background/timeline/bg-timeline.png);
+    background-size: contain;
+    padding-inline: 0;
+    #timeline {
+        padding-inline: 0;
         display: flex;
-        padding-block: 2em;
+        height: 80%;
         justify-content: center;
+        align-items: center;
         img {
-            width: 90%;
+            width: 100%;
         }
     }
 }
