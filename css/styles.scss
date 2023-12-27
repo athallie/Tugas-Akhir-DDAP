@@ -39,6 +39,7 @@ body {
 }
 
 #tentang-page {
+    height: 100vh;
     #tentang-paragraph {
         font-size: $font-p;
     }
@@ -64,6 +65,12 @@ body {
 }
 
 header {
+    min-height: 105vh;
+    background-image: url(../images/background/header/bg-header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     padding-top: 2em;
     padding-bottom: 5em;
 

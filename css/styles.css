@@ -11960,6 +11960,9 @@ body {
   margin-bottom: 0.75em;
 }
 
+#tentang-page {
+  height: 100vh;
+}
 #tentang-page #tentang-paragraph {
   font-size: 1.1rem;
 }
@@ -11982,6 +11985,11 @@ body {
 }
 
 header {
+  min-height: 105vh;
+  background-image: url(../images/background/header/bg-header.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding-top: 2em;
   padding-bottom: 5em;
 }
