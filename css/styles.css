@@ -11960,30 +11960,6 @@ body {
   margin-bottom: 0.75em;
 }
 
-#tentang-page {
-  height: 100vh;
-}
-#tentang-page #tentang-paragraph {
-  font-size: 1.1rem;
-}
-#tentang-page .row {
-  -moz-column-gap: 1em;
-       column-gap: 1em;
-}
-#tentang-page img {
-  transform: translateY(-2%);
-  animation: floater 5s infinite;
-  transition: ease 0.5s;
-}
-@keyframes floater {
-  0% {
-    transform: translateY(-2%);
-  }
-  50% {
-    transform: translateY(2%);
-  }
-}
-
 header {
   min-height: 105vh;
   background-image: url(../images/background/header/bg-header.png);
@@ -12014,11 +11990,60 @@ header nav .btn {
   color: white;
   border-color: white;
 }
-header #jumbotron h1, header #jumbotron .h1 {
-  margin-bottom: 0.25em;
+header #jumbotron .display-1 {
+  padding-block: 0.2em;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-block-color: white;
+  border-block-width: 7px;
+  border-block-style: solid;
 }
-header #jumbotron h3, header #jumbotron .h3 {
-  margin-bottom: 3.5em;
+header #jumbotron h1, header #jumbotron .h1 {
+  color: white;
+  font-family: "Black Mustang", sans-serif;
+  margin-bottom: 0.5em;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+header #jumbotron h2, header #jumbotron .h2 {
+  color: yellow;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+}
+header #jumbotron h4, header #jumbotron .h4 {
+  color: yellow;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1.1rem;
+  margin-inline: 1.1em;
+  font-weight: 500;
+}
+
+#tentang-page {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#tentang-page #tentang-paragraph {
+  font-size: 1.1rem;
+}
+#tentang-page .row {
+  -moz-column-gap: 1em;
+       column-gap: 1em;
+}
+#tentang-page img {
+  transform: translateY(-2%);
+  animation: floater 5s infinite;
+  transition: ease 0.5s;
+}
+@keyframes floater {
+  0% {
+    transform: translateY(-2%);
+  }
+  50% {
+    transform: translateY(2%);
+  }
 }
 
 #sponsor-page {

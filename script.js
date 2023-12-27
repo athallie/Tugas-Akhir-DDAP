@@ -13,7 +13,7 @@ var interval = setInterval(function() {
         clearInterval(x);
     } */
 
-    document.querySelector("#event-countdown").innerHTML = days + "d:" + hours + "h:" + minutes + "m:" + seconds + "s";
+    document.querySelector("#event-countdown").innerHTML = days + " : " + hours + " : " + minutes + " : " + seconds;
 
 
 }, 1000);

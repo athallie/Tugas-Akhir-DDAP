@@ -17,11 +17,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap" rel="stylesheet">
+
+  <!-- Black Mustang Font -->
+  <link href="https://fonts.cdnfonts.com/css/black-mustang" rel="stylesheet">      
+
+  <!-- Bebas Neue Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap" rel="stylesheet">
+
+  <!-- Helvetica Neue Font -->
+  <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
+
 </head>
 
 <body>
   <!-- Header -->
-  <header class="container-fluid mb-4">
+  <header class="container-fluid">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg p-0">
       <div class="container-fluid p-0">
@@ -58,17 +70,19 @@
     </nav>
 
     <!-- Jumbotron -->
-    <div class="container-fluid text-center" id="jumbotron">
-      <h1 class="display-1" id="event-title">
+    <div class="container-fluid text text-center" id="jumbotron">
+      <h1 class="display-1 mx-auto" id="event-title">
         Awarding DDAP <br> 
         2023
       </h1>
-      <h3 class="display-3" id="event-date">
-        Oktober 10 -20, Malang
-      </h3>
-      <h2 class="display-2" id="event-countdown">
-  
-      </h2>
+
+      <h2 class="display-2" id="event-countdown"></h2>
+      <div class="d-flex justify-content-center">
+        <h4>DAYS</h4>
+        <h4>HOURS</h4>
+        <h4>MINUTES</h4>
+        <h4>SECONDS</h4>
+      </div>
     </div>
   </header>
 
