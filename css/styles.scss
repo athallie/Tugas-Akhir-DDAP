@@ -64,10 +64,6 @@ body {
     }
 }
 
-.icon {
-    height: 2.5em;
-}
-
 header {
     padding-top: 2em;
     padding-bottom: 5em;
@@ -111,6 +107,8 @@ header {
 }
 
 #sponsor-page {
+    background-color: #1d3f69;
+    height: 100vh;
     .row {
         column-gap: 1em;
         margin-bottom: 3em;
@@ -154,23 +152,36 @@ header {
 }
 
 #karya-page {
+    background-image: url(../images/background/karya/bg-karya.png);
+    background-size: cover;
     .carousel {
         display: flex;
         width: 60em;
         height: 30em;
         .carousel-indicators {
             bottom: -1em;
+            button {
+                width: 2.5em;
+            }
         }
         .carousel-inner {
             display: flex;
             align-items: center;
+        }
+        .next-prev-buttons {
+            display: flex;
+            padding: .4em;
+            border-radius: 30px;
+            border-color: white;
+            border-style: solid;
+            border-width: 2px;
         }
     }
     .carousel-item {
         img {
             width: 70%;
             box-shadow: -1px 3px 30px 2px rgba(0,0,0,0.76);
-            border-radius: 2em;
+            border-radius: 5em;
             transition: transform 0.2s cubic-bezier(0.47, 0.35, 0.17, 0.97);
         }
 
@@ -183,15 +194,6 @@ header {
 .page-set {
     padding-inline: 1em;
     padding-block: 3em;
-}
-
-footer {
-    #contacts {
-        margin-bottom: 2em;
-    }
-
-    padding-top: 3em;
-    padding-bottom: 1.5em;
 }
 
 #hadiah-page {
@@ -228,12 +230,33 @@ footer {
 }
 
 #faq-page {
-    img {
-        animation: investigate 2s infinite alternate ease-in-out;
+    background-image: url(../images/background/faq/bg-faq.png);
+    background-size: cover;
+    .col {
+        height: 100vh;
     }
-    @keyframes investigate {
-        to {
-          transform: scale(1.1);
+    .accordion {
+        width: 60%;
+        .accordion-item {
+            border-color: black;
+            border-width: 1.5px;
+            button {
+                font-weight: $font-hl-w;
+                font-size: 1.25rem;
+            }
         }
-      }
+    }
+    #faq-col-left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        margin-top: 6.5em;
+        .icon {
+            height: 3.5em;
+        }
+    }
 }
