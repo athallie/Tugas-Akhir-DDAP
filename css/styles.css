@@ -11946,7 +11946,6 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: radial-gradient(circle, #191970, #371873, #4d1774, #601675, #721575, #801574, #8e1773, #9b1a72, #a91f70, #b5266d, #c12e69, #cc3766);
   color: #f2f2f2;
 }
 
@@ -12046,17 +12045,6 @@ header #jumbotron h3, header #jumbotron .h3 {
   margin: auto;
 }
 
-#hadiah-list .card {
-  width: 5em;
-  background-color: white;
-}
-#hadiah-list img {
-  transition: transform 0.2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-#hadiah-list img:hover {
-  transform: scale(1.1);
-}
-
 #karya-page {
   background-image: url(../images/background/karya/bg-karya.png);
   background-size: cover;
@@ -12099,12 +12087,19 @@ header #jumbotron h3, header #jumbotron .h3 {
   padding-block: 3em;
 }
 
+#hadiah-page {
+  background-image: url(../images/background/hadiah/bg-hadiah.png);
+  background-size: cover;
+  height: 100vh;
+}
 #hadiah-page #hadiah-list {
-  padding-left: 10em;
+  padding-top: 5em;
+  padding-right: 6em;
+  padding-left: 3em;
 }
 #hadiah-page #hadiah-list .row {
   padding: 0;
-  height: 10em;
+  height: 12em;
 }
 #hadiah-page #hadiah-list .col {
   display: flex;
@@ -12116,8 +12111,11 @@ header #jumbotron h3, header #jumbotron .h3 {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  border-radius: 2em;
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+#hadiah-page #hadiah-list img:hover {
+  transform: scale(1.1);
 }
 
 #timeline-page {
