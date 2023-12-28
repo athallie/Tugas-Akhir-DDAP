@@ -137,46 +137,6 @@ header {
     }
 }
 
-#karya-page {
-    background-image: url(../images/background/karya/bg-karya.png);
-    background-size: cover;
-    .carousel {
-        display: flex;
-        width: 60em;
-        height: 30em;
-        .carousel-indicators {
-            bottom: -1em;
-            button {
-                width: 2.5em;
-            }
-        }
-        .carousel-inner {
-            display: flex;
-            align-items: center;
-        }
-        .next-prev-buttons {
-            display: flex;
-            padding: .4em;
-            border-radius: 30px;
-            border-color: white;
-            border-style: solid;
-            border-width: 2px;
-        }
-    }
-    .carousel-item {
-        img {
-            width: 70%;
-            box-shadow: -1px 3px 30px 2px rgba(0,0,0,0.76);
-            border-radius: 5em;
-            transition: transform 0.2s cubic-bezier(0.47, 0.35, 0.17, 0.97);
-        }
-
-        img:hover {
-            transform: scale(1.1);
-        }
-    }
-}
-
 .page-set {
     padding-inline: 1em;
     padding-block: 3em;
@@ -225,6 +185,52 @@ header {
         align-items: center;
         img {
             width: 100%;
+        }
+    }
+}
+
+#karya-page {
+    height: 100vh;
+    background-image: url(../images/background/karya/bg-karya.png);
+    background-size: cover;
+    #headline-karya {
+        font-family: 'Black Mustang', sans-serif;
+        font-size: 4.5rem;
+    }
+    .carousel {
+        display: flex;
+        width: 80%;
+        .carousel-indicators {
+            bottom: -1em;
+            button {
+                width: 2.5em;
+            }
+        }
+        .carousel-inner {
+            padding-block: 2em;
+            margin-bottom: 2em;
+            display: flex;
+            align-items: center;
+        }
+        .next-prev-buttons {
+            display: flex;
+            padding: .4em;
+            border-radius: 30px;
+            border-color: white;
+            border-style: solid;
+            border-width: 2px;
+        }
+    }
+    .carousel-item {
+        img {
+            width: 70%;
+            box-shadow: -1px 3px 10px 2px rgba(0,0,0,0.76);
+            border-radius: 5em;
+            transition: transform 0.2s cubic-bezier(0.47, 0.35, 0.17, 0.97);
+        }
+
+        img:hover {
+            transform: scale(1.1);
         }
     }
 }
