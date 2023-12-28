@@ -18,7 +18,7 @@ $accordion-bg: white;
 
 $font-nav: .75rem;
 $font-sub: 1rem;
-$font-p: 1.1rem;
+$font-p: .9rem;
 $font-hl: 2.75rem;
 $font-hl-w: 500;
 $font-sub-w: 300;
@@ -103,7 +103,7 @@ header {
             font-family: 'Helvetica Neue', sans-serif;
             font-size: 1.1rem;
             margin-inline: 1.1em;
-            font-weight: 500;
+            font-weight: lighter;
         }
 
     }
@@ -111,31 +111,29 @@ header {
 
 #tentang-page {
     height: 100vh;
+    background-image: url(../images/background/tentang/bg-tentang.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    #tentang-paragraph {
-        font-size: $font-p;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 
-    .row {
-        column-gap: 1em;
-    }
+    div {
+        h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 4rem;
+            margin-bottom: .25em;
+        }
+        color: black;
+        width: 30%;
 
-    img {
-        transform: translateY(-2%);
-        animation: floater 5s infinite;
-        transition: ease 0.5s;
-
-        @keyframes floater {
-            0% {
-                transform: translateY(-2%);
-            }
-            50% {
-                transform: translateY(2%);
-            }
-          }
+        #tentang-paragraph {
+            font-size: $font-p;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+        margin-right: 3em;
     }
 }
 

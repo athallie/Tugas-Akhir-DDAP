@@ -12016,34 +12016,32 @@ header #jumbotron h4, header #jumbotron .h4 {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 1.1rem;
   margin-inline: 1.1em;
-  font-weight: 500;
+  font-weight: lighter;
 }
 
 #tentang-page {
   height: 100vh;
+  background-image: url(../images/background/tentang/bg-tentang.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-#tentang-page #tentang-paragraph {
-  font-size: 1.1rem;
+#tentang-page div {
+  color: black;
+  width: 30%;
+  margin-right: 3em;
 }
-#tentang-page .row {
-  -moz-column-gap: 1em;
-       column-gap: 1em;
+#tentang-page div h2, #tentang-page div .h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 0.25em;
 }
-#tentang-page img {
-  transform: translateY(-2%);
-  animation: floater 5s infinite;
-  transition: ease 0.5s;
-}
-@keyframes floater {
-  0% {
-    transform: translateY(-2%);
-  }
-  50% {
-    transform: translateY(2%);
-  }
+#tentang-page div #tentang-paragraph {
+  font-size: 0.9rem;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 #sponsor-page {
