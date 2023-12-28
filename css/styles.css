@@ -12170,6 +12170,12 @@ header #jumbotron h4, header #jumbotron .h4 {
   background-image: url(../images/background/faq/bg-faq.png);
   background-size: cover;
 }
+#faq-page #headline-faq {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 6rem;
+  margin-bottom: 0.25em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 #faq-page .col {
   height: 100vh;
 }
