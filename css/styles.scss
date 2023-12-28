@@ -16,7 +16,7 @@ $accordion-bg: white;
 
 }
 
-$font-nav: .75rem;
+$font-nav: 1rem;
 $font-sub: 1rem;
 $font-p: .9rem;
 $font-hl: 2.75rem;
@@ -49,6 +49,9 @@ header {
     padding-bottom: 5em;
 
     nav {
+        margin-left: 1em;
+
+        font-family: 'Helvetica Neue', sans-serif;
         margin-bottom: 4em;
 
         .nav-link {
@@ -61,6 +64,7 @@ header {
         }
     
         .navbar-nav {
+
             column-gap: 5em;
         }
     
@@ -70,6 +74,10 @@ header {
             font-size: $font-nav;
             color: white;
             border-color: white;
+        }
+
+        img {
+            
         }
     }
 
@@ -113,6 +121,20 @@ header {
     }
 }
 
+.sub {
+    align-self: flex-start;
+    margin-right: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: .5em;
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+}
+
 #tentang-page {
     height: 100vh;
     background-image: url(../images/background/tentang/bg-tentang.png);
@@ -124,20 +146,23 @@ header {
     align-items: center;
     justify-content: flex-end;
 
-    div {
+    padding-top: 2em;
+
+    #content {
         h2 {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 4rem;
             margin-bottom: .25em;
         }
         color: black;
-        width: 30%;
+        width: 25%;
 
         #tentang-paragraph {
             font-size: $font-p;
             font-family: 'Helvetica Neue', sans-serif;
+            text-align:justify;
         }
-        margin-right: 3em;
+        margin-right: 6.5em;
     }
 }
 
@@ -180,12 +205,17 @@ header {
             transform: scale(1.1);
         }
     }
+    .sub {
+        margin-top: 17em;
+        margin-left: 67em;
+        width: 15%;
+    }
 }
 
 #timeline-page {
     height: 100vh;
     background-image: url(../images/background/timeline/bg-timeline.png);
-    background-size: contain;
+    background-size: cover;
     padding-inline: 0;
     #headline-timeline {
         font-family: 'Bebas Neue', sans-serif;
@@ -195,21 +225,26 @@ header {
     #timeline {
         padding-inline: 0;
         display: flex;
-        height: 80%;
         justify-content: center;
         align-items: center;
         img {
             width: 100%;
         }
+        margin-bottom: 3em;
+    }
+
+    .sub {
+        width: 15%;
+        margin-left: 3em;
     }
 }
 
 #karya-page {
-    height: 100vh;
+    height: 103vh;
     background-image: url(../images/background/karya/bg-karya.png);
     background-size: cover;
     #headline-karya {
-        font-family: 'Black Mustang', sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
         font-size: 4.5rem;
     }
     .carousel {
@@ -248,6 +283,11 @@ header {
             transform: scale(1.1);
         }
     }
+
+    .sub {
+        margin-left: 67em;
+        width: 15%;
+    }
 }
 
 #sponsor-page {
@@ -285,9 +325,16 @@ header {
         border-radius: 1em;
         margin: auto;
     }
+
+    .sub {
+        width: 15%;
+        margin-left: 3em;
+    }
 }
 
 #faq-page {
+    height: 100vh;
+
     background-image: url(../images/background/faq/bg-faq.png);
     background-size: cover;
 
@@ -296,10 +343,6 @@ header {
         font-size: 6rem;
         margin-bottom: .25em;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-
-    .col {
-        height: 100vh;
     }
 
     .accordion {
@@ -314,6 +357,7 @@ header {
         }
     }
     #faq-col-left {
+        margin-top: 2.5em;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -325,5 +369,11 @@ header {
         .icon {
             height: 3.5em;
         }
+    }
+
+    .sub {
+        width: 25%;
+        margin-top: 38em;
+        margin-left: 28em;
     }
 }

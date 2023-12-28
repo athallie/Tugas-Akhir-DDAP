@@ -11970,11 +11970,13 @@ header {
   padding-bottom: 5em;
 }
 header nav {
+  margin-left: 1em;
+  font-family: "Helvetica Neue", sans-serif;
   margin-bottom: 4em;
 }
 header nav .nav-link {
   color: #f2f2f2;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 header nav .navbar-brand {
   margin: 0;
@@ -11986,7 +11988,7 @@ header nav .navbar-nav {
 header nav .btn {
   border-radius: 2em;
   width: 7em;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: white;
   border-color: white;
 }
@@ -12022,6 +12024,20 @@ header #jumbotron div {
   padding-left: 2.1em;
 }
 
+.sub {
+  align-self: flex-start;
+  margin-right: auto;
+  font-family: "Bebas Neue", sans-serif;
+  margin-left: 0.5em;
+}
+.sub h1, .sub .h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.sub h4, .sub .h4 {
+  font-size: 1rem;
+}
+
 #tentang-page {
   height: 100vh;
   background-image: url(../images/background/tentang/bg-tentang.png);
@@ -12031,20 +12047,22 @@ header #jumbotron div {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding-top: 2em;
 }
-#tentang-page div {
+#tentang-page #content {
   color: black;
-  width: 30%;
-  margin-right: 3em;
+  width: 25%;
+  margin-right: 6.5em;
 }
-#tentang-page div h2, #tentang-page div .h2 {
+#tentang-page #content h2, #tentang-page #content .h2 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 4rem;
   margin-bottom: 0.25em;
 }
-#tentang-page div #tentang-paragraph {
+#tentang-page #content #tentang-paragraph {
   font-size: 0.9rem;
   font-family: "Helvetica Neue", sans-serif;
+  text-align: justify;
 }
 
 .page-set {
@@ -12088,11 +12106,16 @@ header #jumbotron div {
 #hadiah-page #hadiah-list img:hover {
   transform: scale(1.1);
 }
+#hadiah-page .sub {
+  margin-top: 17em;
+  margin-left: 67em;
+  width: 15%;
+}
 
 #timeline-page {
   height: 100vh;
   background-image: url(../images/background/timeline/bg-timeline.png);
-  background-size: contain;
+  background-size: cover;
   padding-inline: 0;
 }
 #timeline-page #headline-timeline {
@@ -12103,21 +12126,25 @@ header #jumbotron div {
 #timeline-page #timeline {
   padding-inline: 0;
   display: flex;
-  height: 80%;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3em;
 }
 #timeline-page #timeline img {
   width: 100%;
 }
+#timeline-page .sub {
+  width: 15%;
+  margin-left: 3em;
+}
 
 #karya-page {
-  height: 100vh;
+  height: 103vh;
   background-image: url(../images/background/karya/bg-karya.png);
   background-size: cover;
 }
 #karya-page #headline-karya {
-  font-family: "Black Mustang", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 4.5rem;
 }
 #karya-page .carousel {
@@ -12152,6 +12179,10 @@ header #jumbotron div {
 }
 #karya-page .carousel-item img:hover {
   transform: scale(1.1);
+}
+#karya-page .sub {
+  margin-left: 67em;
+  width: 15%;
 }
 
 #sponsor-page {
@@ -12190,8 +12221,13 @@ header #jumbotron div {
   border-radius: 1em;
   margin: auto;
 }
+#sponsor-page .sub {
+  width: 15%;
+  margin-left: 3em;
+}
 
 #faq-page {
+  height: 100vh;
   background-image: url(../images/background/faq/bg-faq.png);
   background-size: cover;
 }
@@ -12200,9 +12236,6 @@ header #jumbotron div {
   font-size: 6rem;
   margin-bottom: 0.25em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-#faq-page .col {
-  height: 100vh;
 }
 #faq-page .accordion {
   width: 60%;
@@ -12216,6 +12249,7 @@ header #jumbotron div {
   font-size: 1.25rem;
 }
 #faq-page #faq-col-left {
+  margin-top: 2.5em;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -12226,4 +12260,9 @@ header #jumbotron div {
 }
 #faq-page footer .icon {
   height: 3.5em;
+}
+#faq-page .sub {
+  width: 25%;
+  margin-top: 38em;
+  margin-left: 28em;
 }/*# sourceMappingURL=styles.css.map */
