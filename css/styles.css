@@ -12044,38 +12044,6 @@ header #jumbotron h4, header #jumbotron .h4 {
   font-family: "Helvetica Neue", sans-serif;
 }
 
-#sponsor-page {
-  background-color: #1d3f69;
-  height: 100vh;
-}
-#sponsor-page .row {
-  -moz-column-gap: 1em;
-       column-gap: 1em;
-  margin-bottom: 3em;
-}
-#sponsor-page .card {
-  width: 10em;
-  height: 10em;
-  border-radius: 2em;
-  border-color: black;
-  border-width: 1px;
-  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
-  padding: 1em;
-  transition: transform 0.2s cubic-bezier(0.47, 0.35, 0.17, 0.97);
-}
-#sponsor-page .card:hover {
-  box-shadow: 0 0 20px #8e1773;
-  transform: scale(1.05);
-}
-#sponsor-page .container-fluid, #sponsor-page .container-sm, #sponsor-page .container-md, #sponsor-page .container-lg, #sponsor-page .container-xl, #sponsor-page .container-xxl {
-  padding-top: 1em;
-}
-#sponsor-page img {
-  width: 80%;
-  border-radius: 1em;
-  margin: auto;
-}
-
 #karya-page {
   background-image: url(../images/background/karya/bg-karya.png);
   background-size: cover;
@@ -12164,6 +12132,43 @@ header #jumbotron h4, header #jumbotron .h4 {
 }
 #timeline-page #timeline img {
   width: 100%;
+}
+
+#sponsor-page {
+  background-color: #1d3f69;
+  height: 100vh;
+}
+#sponsor-page #headline-sponsor {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4.5rem;
+  margin-bottom: 0.5em;
+}
+#sponsor-page .row {
+  -moz-column-gap: 1em;
+       column-gap: 1em;
+  margin-bottom: 3em;
+}
+#sponsor-page .card {
+  width: 10em;
+  height: 10em;
+  border-radius: 2em;
+  border-color: black;
+  border-width: 1px;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  transition: transform 0.2s cubic-bezier(0.47, 0.35, 0.17, 0.97);
+}
+#sponsor-page .card:hover {
+  box-shadow: 0 0 20px #8e1773;
+  transform: scale(1.05);
+}
+#sponsor-page .container-fluid, #sponsor-page .container-sm, #sponsor-page .container-md, #sponsor-page .container-lg, #sponsor-page .container-xl, #sponsor-page .container-xxl {
+  padding-top: 1em;
+}
+#sponsor-page img {
+  width: 80%;
+  border-radius: 1em;
+  margin: auto;
 }
 
 #faq-page {
